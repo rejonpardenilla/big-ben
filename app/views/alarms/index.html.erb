@@ -15,7 +15,7 @@
   <tbody>
     <% @alarms.each do |alarm| %>
       <tr>
-        <td><%= alarm.repeat_time %></td>
+        <td><%= alarm.repeat_time.strftime('%H:%M') %></td>
         <td><%= alarm.repeat_date %></td>
         <td><%= alarm.repeat_once %></td>
         <td><%= link_to 'Show', alarm %></td>
