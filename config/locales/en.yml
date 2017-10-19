@@ -18,16 +18,21 @@
 #
 # The following keys must be escaped otherwise they will not be retrieved by
 # the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
-en:
-  hello: "Hello world"
+links:
+  back: "Back"
+  cancel: "Cancel"
+  confirm: "Are you sure??"
+  destroy: "Delete"
+  new: "New"
+  edit: "Edit"
+  show: "Show"
+titles:
+  edit: "Edit %{model}"
+  save: "Save %{model}"
+  new: "New %{model}"
+  delete: "Delete %{model}"
+models:
+  alarm:
+    plural: "Alarms"
+    active: "Active"
+    desactive: "Desactive"

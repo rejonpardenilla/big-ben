@@ -1,0 +1,19 @@
+actions: "Acciones"
+links:
+  back: "Atrás"
+  cancel: "Cancelar"
+  confirm: "Estás seguro?"
+  destroy: "Borrar"
+  new: "Nuevo"
+  edit: "Editar"
+  show: "Mostrar"
+titles:
+  edit: "Editar %{model}"
+  save: "Guardar %{model}"
+  new: "Nuevo %{model}"
+  delete: "Borrar %{model}"
+models:
+  alarm:
+    plural: "Alarmas"
+    active: "Activa"
+    desactive: "No activa"
